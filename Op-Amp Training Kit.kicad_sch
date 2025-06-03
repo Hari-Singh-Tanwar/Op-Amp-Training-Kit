@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(bezier
 		(pts
-			(xy 207.645 135.255) (xy 210.82 122.555) (xy 217.17 147.955) (xy 220.345 135.255)
+			(xy 207.645 135.255) (xy 213.36 123.19) (xy 214.63 147.32) (xy 220.345 135.255)
 		)
 		(stroke
 			(width 0)
@@ -1106,7 +1106,7 @@
 	)
 	(sheet
 		(at 146.05 118.11)
-		(size 76.2 38.1)
+		(size 77.47 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
