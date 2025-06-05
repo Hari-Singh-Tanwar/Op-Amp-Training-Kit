@@ -1382,6 +1382,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 64.77 57.15)
+		(end 228.6 119.38)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 36774328-d668-4b88-b93b-24281149c2fe)
+	)
+	(text "8 bit DAC\n"
+		(exclude_from_sim no)
+		(at 141.732 52.07 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "6a60c365-57ee-4691-bdb8-e56a6a5d8d66")
+	)
 	(junction
 		(at 163.83 81.28)
 		(diameter 0)
@@ -2736,7 +2758,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 201.93 66.04 0)
 			(effects
 				(font
@@ -4035,7 +4057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
 			(at 200.66 80.01 0)
 			(effects
 				(font

@@ -920,6 +920,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 110.49 72.39)
+		(end 170.18 116.84)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6be5aa45-6e8c-4ed1-8ef6-d0b2f44efbf7)
+	)
+	(text "Basic Op-Amp\n"
+		(exclude_from_sim no)
+		(at 138.684 67.564 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "2501bb46-4062-4680-8331-a6b0f3e43746")
+	)
 	(junction
 		(at 120.65 90.17)
 		(diameter 0)
@@ -983,6 +1005,16 @@
 			(type default)
 		)
 		(uuid "016c3dcb-9a61-4711-b7e9-31df46b3c19d")
+	)
+	(wire
+		(pts
+			(xy 149.86 109.22) (xy 149.86 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0571d3c7-325b-4e20-9d22-7f0621414966")
 	)
 	(wire
 		(pts
@@ -1123,6 +1155,16 @@
 			(type default)
 		)
 		(uuid "da62636d-ca46-4b12-bc30-afc9bfebc528")
+	)
+	(wire
+		(pts
+			(xy 149.86 106.68) (xy 146.05 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e32740cb-f88a-4e5a-8fc4-bf0cd7598c95")
 	)
 	(wire
 		(pts
@@ -1546,7 +1588,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 142.24 106.68 0)
 			(effects
 				(font
@@ -1660,6 +1702,72 @@
 			(project "Op-Amp Training Kit"
 				(path "/5c4a903a-e3d4-449c-8c2a-618cbf16a08f/af2807b8-b768-4a13-933e-f95a21c1f656"
 					(reference "J61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-15V")
+		(at 149.86 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1800a00-a127-4302-91f6-cf761e6e6963")
+		(property "Reference" "#PWR045"
+			(at 149.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-15V"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48d7c7a9-7b30-4106-894c-4d128a219410")
+		)
+		(instances
+			(project "Op-Amp Training Kit"
+				(path "/5c4a903a-e3d4-449c-8c2a-618cbf16a08f/af2807b8-b768-4a13-933e-f95a21c1f656"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
