@@ -4831,15 +4831,15 @@
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
 		(at 180.34 95.885 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3af1638d-b129-45b9-92d0-ad8e19d0b9a7")
 		(property "Reference" "U1"
-			(at 180.34 85.725 0)
+			(at 180.34 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,7 +4847,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 180.34 88.265 0)
+			(at 180.34 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6293,6 +6293,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
 		(at 83.82 95.25 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6300,7 +6301,7 @@
 		(dnp no)
 		(uuid "8319dc12-52dc-4f73-8414-ba4bdd7167b6")
 		(property "Reference" "U1"
-			(at 85.344 91.186 0)
+			(at 85.344 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6308,7 +6309,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 86.614 99.314 0)
+			(at 86.614 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
